@@ -1,0 +1,39 @@
+# ── Core LLM & orchestration ──────────────────────────────────────────────────
+google-genai>=1.0.0
+langgraph>=0.2.0
+langchain-core>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-community>=0.3.0
+
+# ── Retrieval ─────────────────────────────────────────────────────────────────
+faiss-cpu>=1.8.0
+rank-bm25>=0.2.2
+sentence-transformers>=3.0.0
+
+# ── Evaluation ────────────────────────────────────────────────────────────────
+ragas>=0.1.0
+datasets>=2.20.0
+
+# ── Experiment tracking ───────────────────────────────────────────────────────
+mlflow>=2.14.0
+
+# ── Web interfaces ────────────────────────────────────────────────────────────
+streamlit>=1.37.0
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+
+# ── Config ────────────────────────────────────────────────────────────────────
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# ── Document loading ──────────────────────────────────────────────────────────
+pypdf>=4.0.0
+pymupdf>=1.24.0        # fallback PDF loader
+
+# ── Web search (optional) ─────────────────────────────────────────────────────
+tavily-python>=0.3.0
+duckduckgo-search>=6.0.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+numpy>=1.26.0
